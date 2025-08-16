@@ -4,9 +4,93 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Poppins", sans-serif;
 }
 
 body {
   font-size: 1.6rem;
+
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common  */
+.btn {
+  --height: 56px;
+  display: inline-block;
+  min-width: 130px;
+  height: var(--height);
+  line-height: var(--height);
+  border: 1px solid #000958;
+  border-radius: 99px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #000958;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sora", sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Header  */
+.header {
+  padding: 26px 0;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list {
+  display: flex;
+}
+
+.navbar__link,
+.header-action__link {
+  padding: 8px 18px;
+  color: #5e6085;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.navbar__link.active,
+.navbar__link:hover {
+  color: #000958;
+  text-shadow: 0.5px 0 0 currentColor;
+}
+
+.header-action__btn {
+  --height: 50px;
+  min-width: 117px;
+  margin-left: 9px;
+  transition: background-color 300ms, color 500ms;
+}
+
+.header-action__btn:hover {
+  background-color: #000958;
+  color: #fff;
 }
