@@ -947,6 +947,12 @@ button {
   border: 1px solid #ff5b2e99;
 }
 
+.price-sale__img {
+  position: absolute;
+  top: -19px;
+  right: -126.79px;
+}
+
 .pricing__switch-label::before {
   position: absolute;
   content: "";
