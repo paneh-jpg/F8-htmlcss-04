@@ -91,7 +91,7 @@ button {
   padding-bottom: 6px;
   position: sticky;
   top: -22px;
-  z-index: 999;
+  z-index: 5;
   background-color: #fffaf5;
 }
 
@@ -232,7 +232,7 @@ button {
 }
 
 .hero-list-item__separate {
-  width: 222px;
+  width: 100%;
   height: 2px;
   background: #f2f2f2;
   border-radius: 1px;
@@ -1163,7 +1163,7 @@ button.review__control:last-child {
   left: 0;
   border-radius: inherit;
   content: "";
-  width: 274px;
+  width: 100%;
   height: 78%;
   background: #ffda54;
 }
@@ -1271,7 +1271,6 @@ button.review__control:last-child {
 }
 
 .blog-item__img {
-  width: 100%;
   display: block;
   margin-top: 21px;
   width: 332.669px;
